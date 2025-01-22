@@ -9,8 +9,6 @@ else
     echo "less"
 fi
 
-echo "num:$(number)"
-
 echo " $number"
 
 line1="hi"
