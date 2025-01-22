@@ -12,3 +12,5 @@ fi
 echo " $number"
 
 d=$(date)
+
+echo "date--$d"
