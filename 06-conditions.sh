@@ -10,10 +10,3 @@ else
 fi
 
 echo " $number"
-
-line1='hi'
-line2='hello'
-
-line3= "${line1} ${line2}"
-
-echo " $line3 "
