@@ -10,3 +10,5 @@ else
 fi
 
 echo " $number"
+
+d=$(date)
