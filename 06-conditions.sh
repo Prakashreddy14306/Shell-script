@@ -8,3 +8,7 @@ then
 else
     echo "less"
 fi
+
+echo "num:"$(number)
+
+echo $(number)
