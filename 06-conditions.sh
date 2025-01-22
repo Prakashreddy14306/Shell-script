@@ -9,6 +9,6 @@ else
     echo "less"
 fi
 
-echo "num:"$(number)
+echo "num:$(number)"
 
-echo $(number)
+echo "$(number)"
