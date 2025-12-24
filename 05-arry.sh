@@ -10,3 +10,5 @@ echo "$?"
 echo "$#"
 echo "${#MOVIES[@]}"
 echo "$0"
+
+exit 0
