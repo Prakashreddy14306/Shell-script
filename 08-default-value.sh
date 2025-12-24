@@ -3,6 +3,7 @@ colour=${colour:-"red"}
 echo "The colour is: $colour"
 touch output.txt
 
-ls | grep ".sh" | wc -l 2>&1 output.txt
+ls | grep ".sh" | wc -l > output.txt
 
 echo "Number of .sh files: $(cat output.txt)"
+ 
