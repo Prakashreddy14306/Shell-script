@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
-while IFS= read -r line; do
+while read -r line; do
     echo "Line: $line"
 done < input.txt
