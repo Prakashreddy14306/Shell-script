@@ -15,7 +15,7 @@
 
 # echo "date--$d"
 
-yes="y"
+yes=$1
 if [ "$yes" == "y" ] || [ "$yes" == "Y" ]
 then
     echo "you said yes"
