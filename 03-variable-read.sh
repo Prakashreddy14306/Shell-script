@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "enter the name:"
+read -p "enter the name:" Name
 
-read -e NAME
-
-echo "username is : $NAME "
-
+echo "username is : $Name "
