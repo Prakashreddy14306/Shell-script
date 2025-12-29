@@ -15,7 +15,7 @@ echo "$((1 + RANDOM % 100))"
 echo "$(($n1 * $n2))"
 
 read -p "enter operater :" operator
-CASE $operator IN
+case $operator IN
     +) echo "Addition : $(($n1 + $n2))";;
     -) echo "Subtraction : $(($n2 - $n1))";;
     *) echo "Multiplication : $(($n1 * $n2))";;
