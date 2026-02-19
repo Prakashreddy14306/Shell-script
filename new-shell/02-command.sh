@@ -1,12 +1,8 @@
 #!/bin/bash
 
-# disk=$(df -h) 
-
-# echo "$disk"
-
-ls /etc/passwd
-if [ $? -eq 0 ]; then
-    echo "command executed successfully"
+if [ /etc/passwd ]; then
+    echo "file exists"
 else
-    echo "try to use admin privileges"
+    echo "file does not exist"
 fi
+
