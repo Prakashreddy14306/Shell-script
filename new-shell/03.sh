@@ -9,4 +9,6 @@ read -p "Enter your name: " name
 read -p "region: " region
 read -p "instance type: " instance_type
 
-echo "name is : $name and region is : $region and instance type is : $instance_type"
+echo "Name: $name"
+echo "Region: $region"
+echo "Instance Type: $instance_type"
