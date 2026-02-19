@@ -3,6 +3,6 @@
 first_name="prakash Reddy"
 last_name="vaddeboyina"
 
-full_name="This is my first name ${first_name} last name ${last_name}"
+full_name="$first_name $last_name"
 
-echo "full name is : $full_name"
+echo "Full Name: $full_name"

@@ -1,24 +1,43 @@
 #!/bin/bash
 
-# number=$1
-
-# if [ $number  -gt  100 ]
+# read -p "enter number :" num
+# if [ $(($num % 2)) -eq 0 ]
 # then
-#     echo "number is greater than 100"
+#     echo "$num is even"
 # else
-#     echo "less"
+#     echo "$num is odd"
 # fi
 
-# echo " $number"
-
-# d=$(date)
-
-# echo "date--$d"
-
-yes=$1
-if [ "$yes" == "y" ] || [ "$yes" == "Y" ]
+name="admi"
+if [ "$name" == "admin" ]
 then
-    echo "you said yes"
+    echo "Welcome, $name!"
 else
-    echo "you said no"
+    echo "Access denied."
+fi
+
+# read -p "enter logical operator :" operator
+
+# if [[ $operator == "AND" || $operator == "and" ]]
+# then
+#     echo "You selected AND operator"
+# elif [[ $operator == "OR" || $operator == "or" ]]
+# then
+#     echo "You selected OR operator"
+# else
+#     echo "Invalid operator"
+# fi
+
+if [ -f "08-default-value.sh" ]
+then
+    echo "The file 08-default-value.sh exists."
+else
+    echo "The file 08-default-value.sh does not exist."
+fi
+
+if [ -d "AWS-DevOps" ]
+then
+    echo "The directory AWS-DevOps exists."
+else
+    echo "The directory AWS-DevOps does not exist."
 fi
